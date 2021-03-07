@@ -23,6 +23,7 @@ font-family: 'Roboto', sans-serif; #212121 */
   --mail_link-tel_footer: rgba(255, 255, 255, 0.6);
   --section-pt: 94px;
   --section-pb: 94px;
+  --margin-bottom-studia: 10px;
 }
 
 body {
