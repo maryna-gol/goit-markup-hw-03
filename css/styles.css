@@ -54,7 +54,6 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-
   margin: 0 auto;
   /*margin-left: auto;
   margin-right: auto; */
@@ -124,6 +123,9 @@ img {
   color: var(--accent-color);
 }
 .nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -141,6 +143,8 @@ img {
   color: var(--accent-color);
 }
 .contacts {
+  margin-right: 50px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -152,7 +156,6 @@ img {
 }
 .mail-link {
   color: var(--tel_link-color);
-  margin-right: 50px;
 }
 
 .mail-link:hover,
@@ -197,10 +200,14 @@ img {
 /*===== END COMPONENTS ====*/
 /*======= HERRO ========*/
 .herro {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
   color: var(--main-background);
   background: var(--second-background);
   overflow: auto;
-  padding: 200px;
 }
 .herro-title {
   max-width: 1600px;
@@ -221,7 +228,7 @@ img {
 /* ==== ADVATAGE === */
 
 .about-advantage {
-  padding-top: 47px;
+  padding-top: 94px;
   padding-bottom: 47px;
   /* 94/2=47 */
   /*text-align: center;*/
@@ -273,7 +280,13 @@ img {
 /*==== ABOUT =========*/
 
 .about-us {
+  margin-bottom: 50px;
   text-align: center;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .list-about-item {
   display: flex;
@@ -308,8 +321,14 @@ img {
 
 /*======= OUR TEAM ========*/
 .our-team-title {
+  display: block;
+
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
   text-align: center;
-  padding-bottom: 50px;
+  letter-spacing: 0.03em;
 }
 .team-list {
   display: flex;
@@ -350,13 +369,23 @@ img {
 }
 .team-list-content-wrapper {
   padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+
   text-align: center;
 }
 
 /*======= END OUR TEAM ========*/
 /*===== FOOTER =======*/
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background: var(--second-background);
+}
+.address {
+  margin-top: 20px;
 }
 .logo-link-footer {
   font-family: var(--secondary-font);
@@ -371,15 +400,12 @@ img {
   /*padding-top: 60px;
   padding-bottom: 20px;*/
 }
-.logo-wrapper {
-  padding-top: 60px;
-  padding-bottom: 20px;
-}
-.list-contacts {
+
+/*.list-contacts {
   padding-top: 20px;
   padding-bottom: 60px;
-}
-.contacts-footer {
+}*/
+.contacts {
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -388,6 +414,10 @@ img {
 
   color: var(--main-color);
 }
+.contacts:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .address-footer {
   font-weight: 400;
   font-size: 14px;
@@ -407,6 +437,14 @@ img {
 /*===== END FOOTER ======*/
 /*====== PORTFOLIO ========*/
 /*Portfolio button*/
+.header-portfolio {
+  border-bottom: 1px solid #ececec;
+}
+
+.nav-portfolio {
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
+}
 
 .list-btn-portfolio {
   display: flex;
@@ -418,8 +456,7 @@ img {
   justify-content: center;
   /* raspologaet elementi på centry */
 
-  padding-top: 98px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   align-items: center;
 }
 
@@ -476,6 +513,8 @@ img {
 /*Portfolio items*/
 
 .img-titel {
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -494,5 +533,11 @@ img {
 .portfolio-list-content-wrapper {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  display: block;
 }
 /*====== END PORTFOLIO ========*/
